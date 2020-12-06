@@ -1,6 +1,6 @@
 <?php
 
-connect using db.php
+require db.php
     
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
